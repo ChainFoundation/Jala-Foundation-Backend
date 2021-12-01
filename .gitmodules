@@ -1,0 +1,3 @@
+[submodule "Layered Architecure/Layered"]
+	path = Layered Architecure/Layered
+	url = https://github.com/ChainFoundation/Foundation-Backend.git
