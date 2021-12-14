@@ -8,4 +8,8 @@ export default class smokeSignal extends NotificationCenter {
     super(user, msg);
     this.method = 'Smoke Signal';
   }
+
+  notifying() {
+    this.notify(this.method);
+  }
 }

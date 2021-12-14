@@ -8,3 +8,7 @@ const user = new User('Jorge');
 const sms = new Sms(User, 'sms');
 const smokeSignal = new SmokeSignal(User, 'smokesignal');
 const email = new Email(User, 'email');
+
+sms.notifying();
+smokeSignal.notifying();
+email.notifying();
